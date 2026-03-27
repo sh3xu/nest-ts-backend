@@ -55,10 +55,10 @@ jobs:
         run: pnpm build
 
       - name: Run unit tests
-        run: pnpm test -- --runInBand
+        run: pnpm test --runInBand
 
       - name: Run e2e tests
-        run: pnpm test:e2e -- --runInBand
+        run: pnpm test:e2e --runInBand
 
   validate-latest-upgrades:
     name: Validate latest package upgrades
@@ -89,7 +89,7 @@ jobs:
         run: pnpm build
 
       - name: Run unit tests with latest dependencies
-        run: pnpm test -- --runInBand
+        run: pnpm test --runInBand
 
       - name: Run e2e tests with latest dependencies
-        run: pnpm test:e2e -- --runInBand
+        run: pnpm test:e2e --runInBand

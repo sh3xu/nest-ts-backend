@@ -3,14 +3,14 @@ import { Role } from '../../common/enums/role.enum';
 
 export class UserProfileDto {
   @ApiProperty()
-  id: string;
+  id!: string;
 
   @ApiProperty()
-  name: string;
+  name!: string;
 
   @ApiProperty()
-  email: string;
+  email!: string;
 
   @ApiProperty({ enum: Role, isArray: true })
-  roles: Role[];
+  roles!: Role[];
 }

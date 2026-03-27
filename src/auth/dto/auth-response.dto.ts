@@ -3,25 +3,25 @@ import { Role } from '../../common/enums/role.enum';
 
 export class AuthUserDto {
   @ApiProperty()
-  id: string;
+  id!: string;
 
   @ApiProperty()
-  name: string;
+  name!: string;
 
   @ApiProperty()
-  email: string;
+  email!: string;
 
   @ApiProperty({ enum: Role, isArray: true })
-  roles: Role[];
+  roles!: Role[];
 }
 
 export class AuthResponseDto {
   @ApiProperty()
-  accessToken: string;
+  accessToken!: string;
 
   @ApiProperty()
-  refreshToken: string;
+  refreshToken!: string;
 
   @ApiProperty({ type: AuthUserDto })
-  user: AuthUserDto;
+  user!: AuthUserDto;
 }
