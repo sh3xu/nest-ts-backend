@@ -12,10 +12,13 @@ describe('AppController', () => {
     }).compile();
   });
 
-  describe('getHello', () => {
-    it('should return "Hello World!"', () => {
+  describe('getStatus', () => {
+    it('should return application status payload', () => {
       const appController = app.get(AppController);
-      expect(appController.getHello()).toBe('Hello World!');
+      expect(appController.getStatus()).toEqual({
+        status: 'ok',
+        service: 'nest-ts-backend',
+      });
     });
   });
 });
