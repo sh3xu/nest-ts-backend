@@ -50,7 +50,7 @@
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^10.0.1",
     "@nestjs/cli": "^11.0.0",
-    "@nestjs/schematics": "^11.0.0",
+    "@nestjs/schematics": "^11.0.10",
     "@nestjs/testing": "^11.0.1",
     "@swc/cli": "^0.6.0",
     "@swc/core": "^1.15.21",
