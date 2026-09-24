@@ -25,7 +25,7 @@ importers:
         version: 11.1.27(@nestjs/common@11.2.3(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.27)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/mongoose':
         specifier: ^11.0.4
-        version: 11.0.4(@nestjs/common@11.2.3(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.27)(mongoose@9.9.4)(rxjs@7.8.2)
+        version: 11.0.4(@nestjs/common@11.2.3(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.27)(mongoose@9.9.5)(rxjs@7.8.2)
       '@nestjs/passport':
         specifier: ^11.0.5
         version: 11.0.5(@nestjs/common@11.2.3(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(passport@0.7.0)
@@ -48,8 +48,8 @@ importers:
         specifier: ^18.2.8
         version: 18.2.8
       mongoose:
-        specifier: ^9.9.4
-        version: 9.9.4
+        specifier: ^9.9.5
+        version: 9.9.5
       passport:
         specifier: ^0.7.0
         version: 0.7.0
@@ -737,8 +737,8 @@ packages:
   '@microsoft/tsdoc@0.16.0':
     resolution: {integrity: sha512-xgAyonlVVS+q7Vc7qLW0UrJU7rSFcETRWsqdXZtjzRU8dF+6CkozTK4V4y1LwOX7j8r/vHphjDeMeGI4tNGeGA==}
 
-  '@mongodb-js/saslprep@1.5.0':
-    resolution: {integrity: sha512-Hk1SKJCMcCos38+vqDnZzlIo4XRj9yCGzYkjB4LcqpeXRIYfia1UWTz+VrueLxoU+uSRJzgkufxoRZg8gi52YA==}
+  '@mongodb-js/saslprep@1.5.2':
+    resolution: {integrity: sha512-UBvCBdPHAmiiDNEpD2ORBGzna4qYr06fLELfGDPW3/KZ9uLK+cGT9npAc/x/6/8SLzdbILMuc3HWFQ0FvJMhCw==}
 
   '@napi-rs/nice-android-arm-eabi@1.1.1':
     resolution: {integrity: sha512-kjirL3N6TnRPv5iuHw36wnucNqXAO46dzK9oPb0wj076R5Xm8PfUVA9nAFB5ZNMmfJQJVKACAPd/Z2KYMppthw==}
@@ -3210,8 +3210,8 @@ packages:
       socks:
         optional: true
 
-  mongoose@9.9.4:
-    resolution: {integrity: sha512-Gc7buf0ExrOZ3t8MD8tVzTek7Qr5d+tEwj4GRFmHCtTZvpaDb38EVsXgCkYacPL9ICAftgS+FGe+dQHLRLHhcw==}
+  mongoose@9.9.5:
+    resolution: {integrity: sha512-t/kUoeDjlHmav7yCaq//YKU3wiIgUPaTj4GrluiTHUw4jQ77/CXtdMDSor4f1u3SKLhIK6NgCF+AzzUqU02Aag==}
     engines: {node: '>=20.19.0'}
 
   mpath@0.9.0:
@@ -4853,7 +4853,7 @@ snapshots:
 
   '@microsoft/tsdoc@0.16.0': {}
 
-  '@mongodb-js/saslprep@1.5.0':
+  '@mongodb-js/saslprep@1.5.2':
     dependencies:
       sparse-bitfield: 3.0.3
 
@@ -5035,11 +5035,11 @@ snapshots:
       rxjs: 7.8.2
       tslib: 2.8.1
 
-  '@nestjs/mongoose@11.0.4(@nestjs/common@11.2.3(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.27)(mongoose@9.9.4)(rxjs@7.8.2)':
+  '@nestjs/mongoose@11.0.4(@nestjs/common@11.2.3(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.27)(mongoose@9.9.5)(rxjs@7.8.2)':
     dependencies:
       '@nestjs/common': 11.2.3(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.27(@nestjs/common@11.2.3(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/microservices@11.1.27)(@nestjs/platform-express@11.1.19)(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      mongoose: 9.9.4
+      mongoose: 9.9.5
       rxjs: 7.8.2
 
   '@nestjs/passport@11.0.5(@nestjs/common@11.2.3(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(passport@0.7.0)':
@@ -7504,11 +7504,11 @@ snapshots:
 
   mongodb@7.5.0:
     dependencies:
-      '@mongodb-js/saslprep': 1.5.0
+      '@mongodb-js/saslprep': 1.5.2
       bson: 7.3.2
       mongodb-connection-string-url: 7.0.2
 
-  mongoose@9.9.4:
+  mongoose@9.9.5:
     dependencies:
       '@standard-schema/spec': 1.1.0
       kareem: 3.3.0
